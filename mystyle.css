@@ -23,3 +23,27 @@
 #logo-brand {
     width: 150px;
 }
+
+#brand-name2 {
+    font-family: Caprasimo-Regular;
+    color: #6d3232;
+}
+.raw-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ebdcc7; 
+    padding: 1rem;
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 20px;
+}
+.nav-bar a {
+    margin-left: 1rem;
+    color: #3c0202;
+    text-decoration: none;
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+}
+.nav-bar a:hover {
+    color: #96846a;
+}

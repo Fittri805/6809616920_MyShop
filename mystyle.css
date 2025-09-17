@@ -10,3 +10,16 @@
     src: url(./resources/NotoSansThai_ExtraCondensed-SemiBold.ttf);
     font-family: NotoSansThai;
 }
+.brand-name {
+    color: #3c0202;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    font-family: Caprasimo-Regular;
+    background-color: #FFF7EC;
+    padding: 5px;
+}
+#logo-brand {
+    width: 150px;
+}

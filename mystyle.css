@@ -130,3 +130,12 @@ main video{
 #logo2{
     width: 85px;
 }
+
+footer{
+    background-color: #FFF7EC;
+} 
+footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}

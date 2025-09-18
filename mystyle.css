@@ -174,3 +174,33 @@ footer::after {
     text-decoration: underline;
     color: #4a0606;
 }
+#connect{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.fa-brands.fa-square-instagram.fa-2x{
+    color: #991e1e;
+}
+.fa-brands.fa-square-instagram.fa-2x:hover{
+    color: #4a0606;
+}
+.fa-brands.fa-square-x-twitter.fa-2x{
+    color: #991e1e;
+}
+.fa-brands.fa-square-x-twitter.fa-2x:hover{
+    color: #4a0606;
+}
+.fa-brands.fa-square-facebook.fa-2x{
+    color: #991e1e;
+}
+.fa-brands.fa-square-facebook.fa-2x:hover{
+    color: #4a0606;
+}
+.fa-brands.fa-tiktok.fa-2x{
+    color: #991e1e;
+}
+.fa-brands.fa-tiktok.fa-2x:hover{
+    color: #4a0606;
+}

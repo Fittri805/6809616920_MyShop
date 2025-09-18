@@ -159,6 +159,9 @@ main video{
     width: 85px;
 }
 
+.pic-bakery{
+    border-radius: 8px;
+}
 .content h3{
     text-align: center;
     font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;

@@ -93,3 +93,21 @@
 .slide-nav a:hover{
     opacity: 100%;
 }
+
+main video{
+    width: 100%;
+    max-width: 700px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 40px;
+    padding: 30px;
+    overflow: hidden;
+}
+.wrapper {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}

@@ -134,6 +134,7 @@ main video{
 footer{
     background-color: #FFF7EC;
     font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+    font-size: larger;
 }
 footer::after {
     content: "";

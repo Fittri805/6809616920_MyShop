@@ -139,3 +139,12 @@ footer::after {
     display: block;
     clear: both;
 }
+
+#logo3 {
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+#logo3 img{
+    width: 250px;
+}

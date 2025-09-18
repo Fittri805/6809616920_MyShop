@@ -24,6 +24,59 @@
 #logo-brand {
     width: 150px;
 }
+
+.menu_bar {
+    background-color: #ebdcc7;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+}
+.logo5 {
+    color: #6d3232;
+    font-family: Caprasimo-Regular, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li {
+    padding: 10px 20px;
+    position: relative;
+}
+.menu_bar ul li a {
+    color: #4a0606;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: #96846a;
+}
+.dropdown_menu {
+    display: none;
+}
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ebdcc7;
+    z-index: 1000;
+}
+.menu_bar ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
 .container{
     padding: 2rem;
     display: flex;

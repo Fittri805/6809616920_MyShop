@@ -10,13 +10,14 @@
     src: url(./resources/NotoSansThai_ExtraCondensed-SemiBold.ttf);
     font-family: NotoSansThai;
 }
+
 .brand-name {
     color: #3c0202;
     display: flex;
     align-items: center; 
     justify-content: center; 
     gap: 10px; 
-    font-family: Caprasimo-Regular;
+    font-family: Caprasimo-Regular, 'Times New Roman', Times, serif;
     background-color: #FFF7EC;
     padding: 5px;
 }
@@ -25,7 +26,7 @@
 }
 
 #brand-name2 {
-    font-family: Caprasimo-Regular;
+    font-family: Caprasimo-Regular, 'Times New Roman', Times, serif;
     color: #6d3232;
 }
 .raw-space {
@@ -110,4 +111,22 @@ main video{
     align-items: center;
     justify-content: space-around;
     gap: 1rem;
+}
+.intro {
+    flex: 1;
+    font-family: NotoSansThai, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-container {
+    color: #3c0202;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start; 
+    gap: 5px; 
+    font-family: NotoSansThai, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 8px;
+
+}
+#logo2{
+    width: 85px;
 }

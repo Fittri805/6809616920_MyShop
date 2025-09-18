@@ -29,7 +29,7 @@
     font-family: Caprasimo-Regular, 'Times New Roman', Times, serif;
     color: #6d3232;
 }
-.raw-space {
+.row-space {
     display: flex;
     justify-content: space-between;
     align-items: center;

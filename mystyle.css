@@ -216,6 +216,7 @@ main video{
     text-align: center;
     color: #3c0202;
     margin: 0;
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
 }
 .content ul{
     list-style: none;
@@ -358,4 +359,19 @@ footer::after {
 }
 .fa-brands.fa-tiktok.fa-2x:hover{
     color: #4a0606;
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
 }

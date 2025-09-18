@@ -169,6 +169,7 @@ main video{
 }
 .content a{
     text-decoration: none;
+    color: #f7eee3;
 }
 .gallery{
     display: flex;
@@ -253,6 +254,8 @@ footer{
     margin-top: 5px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+
 }
 .buy{
     background: #cb9f62;

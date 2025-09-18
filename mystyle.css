@@ -133,7 +133,8 @@ main video{
 
 footer{
     background-color: #FFF7EC;
-} 
+    font-family: CrimsonPro-SemiBold,'Times New Roman', Times, serif;
+}
 footer::after {
     content: "";
     display: block;

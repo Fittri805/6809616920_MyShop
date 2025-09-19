@@ -86,7 +86,8 @@
 .slideWrap{
     position: relative;
     max-width: 48rem;
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
 }
 .slider{
     display: flex;
@@ -99,6 +100,8 @@
 }
 .slider img{
     flex: 1 0 100%;
+    width: 100%;
+    height: auto;
     scroll-snap-align: start;
     object-fit: cover;
 }
